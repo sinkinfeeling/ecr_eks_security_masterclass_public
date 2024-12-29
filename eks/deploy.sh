@@ -32,7 +32,7 @@ fi
 
 
 # Default region & account ID
-export DEFAULT_REGION="us-west-2"
+export DEFAULT_REGION="ap-south-1"
 export AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query "Account" --output text)
 
 # Generate a 4-byte random hex string
